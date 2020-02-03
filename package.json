@@ -1,0 +1,16 @@
+{
+  "name": "course-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Shilton7/course-es6.git",
+  "author": "Shilton <shilton.sistemas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  }
+}
