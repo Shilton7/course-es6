@@ -1,27 +1,15 @@
 "use strict";
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+//Template Literals
+var nome = 'Shilton';
+var idade = 27;
+console.log("Meu nome \xE9 ".concat(nome, " e tenho ").concat(idade, " anos")); //Object Short Syntax
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-alert('ok');
-
-var Teste =
-/*#__PURE__*/
-function () {
-  function Teste() {
-    _classCallCheck(this, Teste);
-  }
-
-  _createClass(Teste, [{
-    key: "metodo",
-    value: function metodo() {}
-  }, {
-    key: "metodo2",
-    value: function metodo2() {}
-  }]);
-
-  return Teste;
-}();
+var nome2 = 'Shilton';
+var idade2 = 23;
+var usuario = {
+  nome2: nome2,
+  idade2: idade2,
+  empresa: 'Google'
+};
+console.log(usuario);
