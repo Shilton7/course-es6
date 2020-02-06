@@ -1,0 +1,21 @@
+Yarn (https://yarnpkg.com/)
+npm install -g yarn@berry
+
+yarn init
+
+yarn add @babel/cli
+yarn add @babel/preset-env
+yarn add @babel/core
+
+rest/spread
+yarn add @babel/plugin-proposal-object-rest-spread
+
+aynsc/await
+    yarn add @babel/plugin-transform-async-to-generator
+    yarn add @babel/polyfill -D
+
+webpack
+    yarn add webpack webpack-cli -D
+    yarn add babel-loader
+    yarn add webpack-dev-server -D
+     
